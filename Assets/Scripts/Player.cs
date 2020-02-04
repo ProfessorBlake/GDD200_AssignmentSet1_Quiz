@@ -9,12 +9,6 @@ public class Player : MonoBehaviour
 	public Sprite Sprite2;
 	public float PlayerSpeed;
 
-    void Start()
-    {
-        
-    }
-
-
     void Update()
     {
 		if (Input.GetKey(KeyCode.LeftArrow))
